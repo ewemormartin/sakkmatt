@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td , th {
+    border: 1px solid black;
+}
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
+th{
+    background-color: lightgray;
+    color: black;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+    article{
+        overflow-x: scroll;
+    }
+}

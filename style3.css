@@ -1,0 +1,26 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+td , th {
+    border: 1px solid black;
+}
+tbody tr:nth-child(even){
+    background-color:blue;
+}
+th{
+    background-color: lightcyan;
+    color: white;
+    font-weight: normal;
+    padding: 7px;
+}
+caption{
+    font-size: 30px;
+    color:green;
+}
+
+@media screen and (max-width: 500px) {
+    article{
+        overflow-x: scroll;
+    }
+}
